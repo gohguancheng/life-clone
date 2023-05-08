@@ -1,0 +1,27 @@
+.container {
+    @apply w-screen min-h-screen flex flex-col
+}
+
+.topbar {
+    @apply px-[1.5rem] bg-white shadow-black shadow-md
+}
+
+.linksContainer {
+    @apply w-full max-w-[720px] lg:max-w-[1300px] mx-auto flex items-center justify-between
+}
+
+.logoLink {
+    @apply text-[#3C3C3B] capitalize text-5xl font-bold
+}
+
+.navLinksContainer {
+    @apply flex gap-[1rem]
+}
+
+.navLink {
+    @apply block py-[20px] text-black border-b-[4px] border-white
+}
+
+.currentLink {
+    @apply border-blue-600 font-semibold
+}
