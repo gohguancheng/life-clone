@@ -3,15 +3,20 @@
 }
 
 .topbar {
-    @apply px-[1.5rem] bg-white shadow-black shadow-md
+    @apply fixed inset-x-0 px-[1.5rem] bg-white shadow-md
 }
 
+
 .linksContainer {
-    @apply w-full max-w-[720px] lg:max-w-[1300px] mx-auto flex items-center justify-between
+    @apply w-full max-w-[720px] lg:max-w-[1300px] mx-auto flex items-center justify-between 
 }
 
 .logoLink {
-    @apply text-[#3C3C3B] capitalize text-5xl font-bold
+    @apply text-[#3C3C3B] capitalize text-5xl font-bold transition-all duration-500 ease-in-out
+}
+
+.largeLogo {
+    @apply text-7xl
 }
 
 .navLinksContainer {
@@ -19,7 +24,11 @@
 }
 
 .navLink {
-    @apply block py-[20px] text-black border-b-[4px] border-white
+    @apply block py-[20px] text-black border-b-[4px] border-white transition-all duration-500 ease-in-out
+}
+
+.verticalExpand {
+    @apply py-[2rem]
 }
 
 .currentLink {

@@ -1,7 +1,7 @@
 import Layout from "@/components/layout";
 
 export default function Home() {
-  return <div className="">Text</div>;
+  return <div className="h-[1000px]">Text</div>;
 }
 
 Home.getLayout = function getLayout(page) {
